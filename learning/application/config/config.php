@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:2126/learning';
+$config['base_url']	= 'http://localhost:2126/GitHub-Directory/learning';
 
 /*
 |--------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 <?php
-class Model_students extends Database_model{
+class Model_students extends MY_Model{
 	const DB_TABLE = 'students';
 	const DB_TABLE_PK = 'id';
 
