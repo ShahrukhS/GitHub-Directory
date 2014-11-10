@@ -19,5 +19,9 @@ class MY_Model extends CI_Model{
 		$this->db->insert($this::DB_TABLE, $this);
 		//$this->{$this::DB_TABLE_PK} = $this->db->insert_id(); // not necessary because the database is auto_increment
 	}
+	public function get(){
+		$query = $this->db->get($this::DB_TABLE);
+		return $query->result();
+	}
 }
 ?>
