@@ -5,33 +5,25 @@
         <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/FrontPages/reset.css" />
         <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/FrontPages/css3.css" />
         <link href="<?php echo base_url();?>assets/css/FrontPages/stylef4e8.css?v=5cray4ggQJf3THPfwDre4BjfG6DfHYrYnS9OP5SWte81" rel="stylesheet">
-
         <link href="<?php echo base_url();?>assets/css/FrontPages/responsivee7ad.css?v=MaBa4j9lVgqY7OTzJy-MiJxgwPAXAYA_iUvaKa-HR-81" rel="stylesheet">
-
         <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/FrontPages/jquery.bxslider.css" />
-        <link href="<?php echo base_url();?>assets/css/FrontPages/fonts/fonts6728.css?v=ut7OezvAemdiG0ZI0TgitFk5TDrVGGRuzeJNqtw74Kc1" rel="stylesheet">
-
-        <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/FrontPages/video-modal.css" />
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,900,800|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 		<!-- all javascripts -->
-        <script type="text/javascript" src="assets/scripts/jquery-1.11.0.js"></script>
-        <script type="text/javascript" src="assets/scripts/FrontPages/html5.js"></script>
-        <script type="text/javascript" src="assets/scripts/FrontPages/browser.js"></script>
-        <script type="text/javascript" src="assets/scripts/FrontPages/jquery.bxSlider.min.js"></script>
-        <script type="text/javascript" src="assets/scripts/FrontPages/common.js"></script>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/scripts/jquery-1.11.0.js"></script>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/scripts/FrontPages/html5.js"></script>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/scripts/FrontPages/browser.js"></script>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/scripts/FrontPages/jquery.bxSlider.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/scripts/FrontPages/common.js"></script>
         
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Shopunion" />
-        <meta property="og:description" content="Shopunion connects businesses and organizations to the people in their community who care about them." />
-        <meta property="og:image" content="<?php echo base_url();?>assets/images/FrontPages/logo.png" />
+        
 
         
 <script type="text/javascript">
-    var shopUnion = shopUnion || {};
-    shopUnion.NotificationImagesMinWidth = '640';
-    shopUnion.currency = 'usd';
-    shopUnion.stripePublishableKey = 'pk_fH8BgVIltG36uwm2GxTZJGgFWnrr5';
-    shopUnion.isMobile = 'False' === 'True';
+    var pushLocal = pushLocal || {};
+    pushLocal.NotificationImagesMinWidth = '640';
+    pushLocal.currency = 'usd';
+    pushLocal.stripePublishableKey = 'pk_fH8BgVIltG36uwm2GxTZJGgFWnrr5';
+    pushLocal.isMobile = 'False' === 'True';
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', '']);
@@ -49,7 +41,7 @@
         m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-45086704-1', 'shopunion.com');
+    ga('create', 'UA-45086704-1', 'pushlocal.com');
     ga('send', 'pageview');
 </script>
-<script src="assets/scripts/placeholder.js"></script>
+<script src="<?php echo base_url();?>assets/scripts/placeholder.js"></script>

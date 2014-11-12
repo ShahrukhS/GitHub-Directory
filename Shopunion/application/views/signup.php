@@ -1,7 +1,7 @@
 
     <body class="signUpPage">
         <header id="signUpHeader">
-            <a href="index.html"><img src="Content/images/FrontPages/logo.png" alt="shopunion logo"/></a>
+            <a href="index.html"><img src="<?php echo base_url();?>assets/images/FrontPages/logo.png" alt="shopunion logo"/></a>
         </header>
         
         
@@ -89,64 +89,10 @@
                                     <label>
                                         State:
                                     </label>
-                                    <select data-placeholder="Select state" data-val="true" data-val-required="The State field is required." id="SelectedState" name="SelectedState"><option value=""></option>
-<option value="150e78e1-b01e-4f0a-aa29-8ff57dc5253a">Alabama</option>
-<option value="0ae6479b-f53d-41ce-ab19-3b3c1d747966">Alaska</option>
-<option value="e7b0baa9-6869-48b2-953e-6742a082ee52">American Samoa</option>
-<option value="db735aaa-d729-4cd7-9783-c45696de88be">Arizona</option>
-<option value="a31c6278-d1ac-47e0-b4f9-0f60e25ebfe4">Arkansas</option>
-<option value="78a234bc-0c08-4cbe-a0ed-81f96f7d5643">California</option>
-<option value="35db1832-5fa1-4dc0-98ae-46a9ad821c2e">Colorado</option>
-<option value="12dacaac-59f3-4cb8-9fd8-f423386703b5">Connecticut</option>
-<option value="b908169f-9a7d-4da1-b08c-2656416602aa">Delaware</option>
-<option value="d9281e7f-7e9a-47d9-9462-66faadae5e29">District of Columbia</option>
-<option value="2f166307-7e48-45f2-a337-6c34e4db12ba">Florida</option>
-<option value="67d7bf8a-5272-4931-a0e0-3e9d838c9e98">Georgia</option>
-<option value="fe9a51e6-0a52-4df0-96cd-961d1f40168f">Guam</option>
-<option value="d3318769-6841-4870-b010-f5f5f6128d60">Hawaii</option>
-<option value="25b579db-386a-430c-ad01-5c169276a430">Idaho</option>
-<option value="3d590c89-670d-4bd8-a9cb-c2bca09c28d9">Illinois</option>
-<option value="9d21d4ec-ebfe-4be3-bfbf-66702e8851b6">Indiana</option>
-<option value="f365c3d8-b172-404b-a0b9-39a05052873e">Iowa</option>
-<option value="a0665b8f-e7d0-4783-927c-7600f2f896fb">Kansas</option>
-<option value="4bc123c3-841e-4561-a20b-f0bfa3e9d141">Kentucky</option>
-<option value="8f1ec345-68a5-404a-97db-9fe70dff7a11">Louisiana</option>
-<option value="18508f0d-4b1f-4b08-9754-dc19ab28ad5f">Maine</option>
-<option value="9090ae3c-a373-4010-9b75-667dccb8a60b">Maryland</option>
-<option value="e770d3a1-ecb4-4bc5-9e3f-33462d56ddf1">Massachusetts</option>
-<option value="da559789-da69-431e-9828-ffe5062327a0">Michigan</option>
-<option value="3d7a55da-7803-4614-ad83-ccc4906ed60d">Minnesota</option>
-<option value="8bafa0d1-f82a-467b-a2cf-f9d1766a1a85">Mississippi</option>
-<option value="4f1405b5-1756-4189-bc57-f1a0240bc50c">Missouri</option>
-<option value="149d1be6-e2b0-48c2-b887-241eb076b410">Montana</option>
-<option value="1da18c2c-29e9-4b81-ad2f-7fa185713822">Nebraska</option>
-<option value="872aec4d-bf7c-4d96-ac61-e703169f670b">Nevada</option>
-<option value="a767ceeb-0f82-48aa-8c4b-15e7c0ce70a9">New Hampshire</option>
-<option value="2390c3b0-8f9d-4e67-a813-8adea13ca101">New Jersey</option>
-<option value="e17ca9e5-6937-48ed-b403-b5816a9e1310">New Mexico</option>
-<option value="fd8b99c5-eab7-4755-95bc-d91b585dceb6">New York</option>
-<option value="c5c64f4f-f818-4416-ab13-658c83808749">North Carolina</option>
-<option value="9c683a3f-d9cc-433d-8406-63cbff97f30a">North Dakota</option>
-<option value="1a8a5ebb-e268-4c79-a547-50dfe31d3135">Northern Marianas Islands</option>
-<option value="e1d65fcd-fa79-4371-a4eb-dd5a066ecb7e">Ohio</option>
-<option value="863bb382-64f6-404d-8d30-253a34726288">Oklahoma</option>
-<option value="6f5018a0-951b-4ce7-937e-c2ebca3c83c3">Oregon</option>
-<option value="902d1341-913b-4cc3-a9bb-c94fb5283c50">Pennsylvania</option>
-<option value="7154adf6-ec51-4450-bec6-9ed8db74eaa9">Puerto Rico</option>
-<option value="af9da307-6c83-41bb-b9b9-477172420371">Rhode Island</option>
-<option value="6d722ba5-580e-4b05-9643-6efcdf5bb930">South Carolina</option>
-<option value="57c3e297-13e8-475d-b54b-450cbcdd9cf1">South Dakota</option>
-<option value="8498fd36-1eef-40a5-a92a-0e003a680b93">Tennessee</option>
-<option value="22bc2beb-c67e-4ab1-8123-9b1bebc4b555">Texas</option>
-<option value="70896d06-bc83-461e-84fa-4a09168dc022">Utah</option>
-<option value="2459df86-4575-4539-854a-8d48d9aea8f7">Vermont</option>
-<option value="20978dd2-1e72-40c5-a09b-3bc186340939">Virgin Islands </option>
-<option value="7677f087-73a9-4684-acc6-15f80e7a5643">Virginia </option>
-<option value="035a206e-785c-4698-ba2a-dfa16ae8e28b">Washington</option>
-<option value="ae1213a8-0526-4747-b31c-ce11eff6b7d5">West Virginia</option>
-<option value="d9318f76-4500-43a2-b1fa-43d0a2c2661b">Wisconsin</option>
-<option value="06b482d1-9811-45f6-a3c8-9c473a5ec9c7">Wyoming</option>
-</select>
+									<?php
+										$stateAttr = 'data-placeholder="Select state" data-val="true" data-val-required="The State field is required." id="SelectedState"';
+										echo form_dropdown('SelectedState', $allStates, '',$stateAttr);
+									?>
                                     <span class="field-validation-valid" data-valmsg-for="SelectedState" data-valmsg-replace="true"></span>
                                 </li>
                                 <li>
@@ -168,45 +114,11 @@
                                 <label>
                                     Category:
                                 </label>
-                                <!--<select data-placeholder="Select category" data-val="true" data-val-required="The Category field is required." id="SelectedCategory" name="SelectedCategory"><option value=""></option>
-<option value="6c432470-2c72-43ea-ac66-ef63c16402b9">Arts/Crafts</option>
-<option value="d9d541e5-ae59-4ef9-bcea-9d32c010e41b">Associations</option>
-<option value="2963c03e-2c46-461b-8b36-a46a476524fc">Automotive</option>
-<option value="31516cbb-560e-4355-8d5c-ef9bedf6d182">Banks</option>
-<option value="db74ac10-78c3-4dba-b035-35b1af6e1ec9">Bars</option>
-<option value="ff877326-3a28-4601-9025-58d2f05e2172">Charitable Organizations</option>
-<option value="9037df20-4e92-4928-9263-b727b31243a3">Clubs</option>
-<option value="ca8a34c2-27ea-4d20-b2ae-7b4235e5bd54">Entertainment/Bands</option>
-<option value="7eea044a-f0e6-474c-99bd-aa70ba0ca592">Events/Festivals</option>
-<option value="cc10cf17-d6cb-40f1-b91a-b0014efd78bf">Fitness</option>
-<option value="1437b8cf-4e49-4943-9ae6-cf0be867c22b">Food Trucks</option>
-<option value="f6f28e8e-42eb-46ab-8943-97fbf109704c">Funeral Homes/Monuments</option>
-<option value="48e4deaa-cdd4-41f3-86ce-b8e0f789d867">Government</option>
-<option value="605b6d41-c8b3-4187-b7e0-28859512a11e">Health/Beauty/Wellness</option>
-<option value="8fe8faa4-500c-4eba-889f-1756aa99a8ef">Historic/Tourism</option>
-<option value="0f19eb4d-b8c7-4bd3-a09a-5e116048c2c8">Home Services</option>
-<option value="806be520-28ee-41ad-aa3a-300eeb52cab8">Hotels/B&amp;Bs</option>
-<option value="1e2df6e3-9643-4a73-b531-c87e994c4fb8">Legal</option>
-<option value="3cbd42e7-ebe9-4411-932a-526fde77a65b">Medical/Dental</option>
-<option value="62cb1246-b0ac-40ef-919c-eaa8a519aecb">Miscellaneous</option>
-<option value="20550275-c951-4f98-acd2-8cbf85e89bd9">News/Publications</option>
-<option value="4bcc4347-45c1-44b7-95fc-ffddd43e6f2d">Pet Care</option>
-<option value="aa8afb08-b509-4103-9cd1-96e5d619cefe">Politics</option>
-<option value="d943aada-833d-4507-9383-a6fd5d01039e">Professional</option>
-<option value="02de73ad-428a-4f60-ba4e-37a9e598e928">Real Estate</option>
-<option value="69a2d8a8-f9ba-4286-ae0b-a46ee9a5d22a">Religious</option>
-<option value="0d943ecf-34ef-4ccc-be86-31552dc484de">Restaurants</option>
-<option value="64c338ae-f3f9-4cfd-ba71-c867e73fd8b4">Retail</option>
-<option value="68712b02-a2a6-4ecc-a89d-1ca6b23fb91e">Schools</option>
-<option value="09a48cf3-4c29-406c-bece-8a54da5c92cc">Sports/Teams</option>
-<option value="0db27434-b034-4a3d-8ef4-79cdedc3e2fe">Technology</option>
-<option value="6be09b28-e1f5-4163-be04-2dc516bed664">TV/Radio</option>
-</select>-->
-					<?php
-					$attributes = 'data-placeholder = "Select category" data-val = "true" data-val-required = "The Category field is required."
-						id = "SelectedCategory"';
-					echo form_dropdown('SelectedCategory', $allCats, '',$attributes); //echo form_dropdown('SelectedCategory', $categories, '',$attributes);
-					?>
+							<?php
+							$catAttr = 'data-placeholder = "Select category" data-val = "true" data-val-required = "The Category field is required."
+								id = "SelectedCategory"';
+							echo form_dropdown('SelectedCategory', $allCats, '',$catAttr);
+							?>
                                 <span class="field-validation-valid" data-valmsg-for="SelectedCategory" data-valmsg-replace="true"></span>
                             </li>
                             <li>
@@ -590,7 +502,7 @@
                                 </label>
                                 <input type="text" class="half required errorAppendToParent" id="cardCvc" />
                                 <figure class="cvcImage">
-                                    <img src="Content/images/FrontPages/cvc.png" alt="" />
+                                    <img src="<?php echo base_url();?>assets/images/FrontPages/cvc.png" alt="" />
                                 </figure>
                             </li>
                             <li>
@@ -631,7 +543,7 @@
         var l10n = l10n || {};
         l10n.phoneMask = '?999-999-9999';
     </script>
-    <script src="Scripts/FrontPages/signUp5417.js?v=fe0aS-wx2GcXVnSJR6h-dlDyuXKtNProCPlsxgR1QpM1"></script>
+    <script src="<?php echo base_url();?>assets/scripts/FrontPages/signUp5417.js?v=fe0aS-wx2GcXVnSJR6h-dlDyuXKtNProCPlsxgR1QpM1"></script>
 
 
     </body>
