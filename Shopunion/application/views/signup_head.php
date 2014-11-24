@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
         <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/FrontPages/stylish-select.css" />
         <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/css/FrontPages/fonts/fonts.css" />

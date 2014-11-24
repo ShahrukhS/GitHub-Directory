@@ -21,7 +21,7 @@
 </div>
 <div class="formOuter">
     <div class="wrapper">
-<form action="http://shopunion.com/Home/CreateBusiness" id="businessForm" method="post"><input id="SignUpType" name="SignUpType" type="hidden" value="general" /><input id="CountryName" name="CountryName" type="hidden" value="US" />            <section class="form stepOne">
+<form action="http://shopunion.com/Home/CreateBusiness" id="businessForm" method="post"><input id="SignUpType" name="SignUpType" type="hidden" value="general" /><input id="CountryName" name="CountryName" type="hidden" value="US" />            <section class="form stepOne" style="display: block;">
                 <h1>
                     Enter Your Personal Information</h1>
                 <div class="formWrap">
@@ -115,8 +115,8 @@
                                     Category:
                                 </label>
 							<?php
-							$catAttr = 'data-placeholder = "Select category" data-val = "true" data-val-required = "The Category field is required."
-								id = "SelectedCategory"';
+							$catAttr = 'data-placeholder="Select category" data-val="true" data-val-required="The Category field is required."
+								id="SelectedCategory"';
 							echo form_dropdown('SelectedCategory', $allCats, '',$catAttr);
 							?>
                                 <span class="field-validation-valid" data-valmsg-for="SelectedCategory" data-valmsg-replace="true"></span>
@@ -125,12 +125,10 @@
                                 <label>
                                     Frequency:
                                 </label>
-                                <select data-placeholder="Select frequency" data-val="true" data-val-required="The Frequency field is required." id="SelectedFrequency" name="SelectedFrequency"><option value=""></option>
-<option value="120e9402-695e-4841-a085-5334d60352d5">1 or more a day</option>
-<option value="05b10e73-c79d-4361-8f18-bcbd99ab1517">As events happen</option>
-<option value="e43f5eef-b57d-4082-bccd-e13c3d1ce548">Several per month</option>
-<option value="1aab2603-333a-4874-9eb1-5fa1d3010ddf">Several per week</option>
-</select>
+								<?php
+								$freqAttr = 'data-placeholder="Select frequency" data-val="true" data-val-required="The Frequency field is required." id="SelectedFrequency"';
+								echo form_dropdown('SelectedFrequency', $allFreqs, '', $freqAttr);
+								?>
                                 <span class="field-validation-valid" data-valmsg-for="SelectedFrequency" data-valmsg-replace="true"></span>
                             </li>
                             <li>

@@ -6,6 +6,7 @@ class Signup extends CI_Controller {
 	{
 		$this->load->model('Categories');
 		$this->load->model('States');
+		$this->load->model('Frequencies');
 		
 		$categories = $this->Categories->get();
 		$formattedCat = array('0' => '');
@@ -21,16 +22,37 @@ class Signup extends CI_Controller {
 		}
 		$data['allStates'] = $formattedStates;
 		
+		$freqs = $this->Frequencies->get();
+		$formatted_freqs = array('0' => '');
+		foreach($freqs as $freq){
+			$formatted_freqs[$freq->freq_id] = $freq->frequency;
+		}
+		$data['allFreqs'] = $formatted_freqs;
+		
 		$this->load->helper('form');
 		$this->load->view('signup_head');
 		$this->load->view('signup', $data);
 	}
-	
-	public function data_validation(){
-		$this->load->library('form_validation');
-		$this->form_validation->set_rules();
-		$this->form_validation->set_rules();
-		$this->form_validation->set_rules();
+	public function submit(){
+		$this->load->model('Advertiser');
+		$advertiser = new Advertisers();
+		$advertiser->plan_id;
+		$advertiser->city_id = $this->input->post('SelectedFeed');
+		$advertiser->cat_id = $this->input->post('SelectedCategory');
+		$advertiser->freq_id = $this->input->post('SelectedFrequency');
+		$advertiser->Fname = $this->input->post('FirstName');
+		$advertiser->Lname = $this->input->post('LastName');
+		$advertiser->email = $this->input->post('Email');
+		$advertiser->password = $this->input->post('Password');
+		$advertiser->phone = $this->input->post('Phone');
+		$advertiser->business_name = $this->input->post('BusinessName');
+		$advertiser->type = $this->input->post('Type');
+		$advertiser->address = $this->input->post('address');
+		$advertiser->website = $this->input->post('Site');
+		$advertiser->desc = $this->input->post('Description');
+		$pic;
+		
+		$advertiser->insert();
 	}
 }
 ?>

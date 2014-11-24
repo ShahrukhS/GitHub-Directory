@@ -14,8 +14,8 @@
                     </ul>
                 </nav>
                 <ul class="login">
-                    <li><a href="Account/SignIn.html">Login</a></li>
-                    <li><a href="signup.html">register</a></li>
+                    <li><a href="signin">Login</a></li>
+                    <li><a href="signup">register</a></li>
                 </ul>
             </div>
         </header>
