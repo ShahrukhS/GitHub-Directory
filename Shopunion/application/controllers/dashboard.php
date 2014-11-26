@@ -1,15 +1,11 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Dashboard extends CI_Controller {
-	Public Dashboard(){
-		$this->load->model('Advertiser');
-		$advertiser = new Advertiser();
-	}
 	public function index()
 	{
 		if($this->session->userdata['is_logged_in']){
-			//$this->load->model('Advertiser');
-			//$advertiser = new Advertiser();
+			$this->load->model('Advertiser');
+			$advertiser = new Advertiser();
 			$advertiser->load($this->session->userdata['ad_id']);
 			$this->load->view('dashboard', $advertiser);
 		}else{
@@ -28,6 +24,23 @@ class Dashboard extends CI_Controller {
 		//$newPost->dateTime = 
 		
 		$newPost->insert();
+	}
+	public function Password(){
+		$this->load->view('password');
+	}
+	public function validate_password(){
+		$this->load->library('form_validation');
+		$this->form_validation->set_rules('field', 'field name to appear', 'xss_clean|callback_validate_old_password');
+		if($this->form_validation->run()){
+			redirect('');
+		}else{
+			$this->load->view('');
+		}
+	}
+	public function validate_old_password(){
+		if(){
+			return true
+		}
 	}
 	public function logout(){
 		$this->session->sess_destroy();
