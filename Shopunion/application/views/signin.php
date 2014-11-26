@@ -21,9 +21,10 @@
 <div class="loginOuter">
     <div class="loginWrap">
         <div class="loginBox">
-            <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
-</ul></div>
-<form action="http://shopunion.com/Account/LogOn" method="post"><input id="returnUrl" name="returnUrl" type="hidden" value="" />
+            <div class="validation-summary-valid" data-valmsg-summary="true">
+				<ul><li style="display:none"></li></ul>
+			</div>
+			<form action="signin/login_validation" method="post"><input id="returnUrl" name="returnUrl" type="hidden" value="" />
 				<ul>
                     <li>
                         <label>Email</label>
@@ -44,7 +45,8 @@
                         <input type="submit" name="button" value="Sign in to your account"/>
                     </li>
                 </ul>
-</form>        </div>
+			</form>
+		</div>
         <span class="signUpBtn">Don't have an account? <a href="../signup.html">Sign Up</a></span>
     </div>
 </div>

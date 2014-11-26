@@ -12,20 +12,29 @@ class Signin extends CI_Controller {
 		$this->form_validation->set_rules('Password', 'Password', 'required');
 		
 		if($this->form_validation->run()){
-			/*$data[] = (
-				'username' => $this->input->post('UserName'),
-				'is_logged_in' => 1,
-			);*/
-			//$this->session->set_userdata($data);
-			redirect('');
+			$this->load->model('Advertiser');
+			$advertiser = new Advertiser();
+			$advertiser->get_PK_where('email',$this->input->post('UserName'));
+			$data = array(
+				'ad_id' => $advertiser->ad_id,
+				'is_logged_in' => 1
+			);
+			$this->session->set_userdata($data);
+			redirect('dashboard');
 		}else{
 			$this->load->view('signin');
 		}
 	}
-	private function validate_credentials(){
-		$this->load->model('Advertisers');
-		if($this->Advertisers->can_login()){
+	public function validate_credentials(){
+		$this->load->model('Advertiser');
+		$advertiser = new Advertiser();
+		$advertiser->email = $this->input->post('UserName');
+		$advertiser->password = md5($this->input->post('Password'));
+		if($advertiser->can_login()){
 			return true;
+		}else{
+			$this->form_validation->set_message('validate_credentials', 'You have entered incorrect Email or Password.');
+			return false;
 		}
 	}
 }

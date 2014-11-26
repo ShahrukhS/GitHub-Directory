@@ -35,7 +35,7 @@ class Signup extends CI_Controller {
 	}
 	public function submit(){
 		$this->load->model('Advertiser');
-		$advertiser = new Advertisers();
+		$advertiser = new Advertiser();
 		$advertiser->plan_id;
 		$advertiser->city_id = $this->input->post('SelectedFeed');
 		$advertiser->cat_id = $this->input->post('SelectedCategory');
@@ -43,14 +43,13 @@ class Signup extends CI_Controller {
 		$advertiser->Fname = $this->input->post('FirstName');
 		$advertiser->Lname = $this->input->post('LastName');
 		$advertiser->email = $this->input->post('Email');
-		$advertiser->password = $this->input->post('Password');
+		$advertiser->password = md5($this->input->post('Password'));
 		$advertiser->phone = $this->input->post('Phone');
 		$advertiser->business_name = $this->input->post('BusinessName');
 		$advertiser->type = $this->input->post('Type');
 		$advertiser->address = $this->input->post('address');
 		$advertiser->website = $this->input->post('Site');
 		$advertiser->desc = $this->input->post('Description');
-		$pic;
 		
 		$advertiser->insert();
 	}

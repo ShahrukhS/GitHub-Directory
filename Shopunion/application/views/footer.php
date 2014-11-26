@@ -73,16 +73,7 @@
                 </div>
             </div>
         </footer>
-        
         <script src="<?php echo base_url();?>assets/scripts/FrontPages/main.js"></script>
-        
-    <script>
-        var l10n = l10n || {};
-        l10n.phoneMask = '?999-999-9999';
-    </script>
-    <script src="<?php echo base_url();?>assets/scripts/FrontPages/index9da8.js?v=RetOdbgNj2d7isAaLMbqp7Un-l0w5PTSw90GSe1meDE1"></script>
-
-
     </body>
 
 </html>

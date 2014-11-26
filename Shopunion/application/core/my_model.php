@@ -23,5 +23,29 @@ class MY_Model extends CI_Model{
 		$query = $this->db->get($this::DB_TABLE);
 		return $query->result();
 	}
+	//not needed
+	public function get_record(){
+		$query = $this->db->get_where($this::DB_TABLE, array(
+			$this::DB_TABLE_PK => $this->{$this::DB_TABLE_PK}
+		));
+		return $query->result();
+	}
+	public function get_PK_where($column, $value){
+		$this->db->select($this::DB_TABLE_PK);
+		$query = $this->db->get_where($this::DB_TABLE, array($column => $value));
+		//return $query->result();
+		$this->populate($query->row());
+	}
+	public function populate($row) {
+        foreach ($row as $key => $value) {
+            $this->$key = $value;
+        }
+    }
+	public function load($id) {
+        $query = $this->db->get_where($this::DB_TABLE, array(
+            $this::DB_TABLE_PK => $id
+        ));
+        $this->populate($query->row());
+    }
 }
 ?>

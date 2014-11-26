@@ -1,34 +1,10 @@
-    <body>
-        <header id="header">
-            <div class="wrapper">
-                <span id="mobileMenu">MobileMenu</span>
-                <a href="../index.html" class="logo"><img src="../Content/images/FrontPages/logo.png" alt=""/></a>
-                <nav>
-                    <ul class="menu">
-                        <li class=active><a href="Business.html">Business</a></li>
-                        <li ><a href="Community.html">community</a></li>
-                        <li ><a href="App.html">the app</a></li>
-                        <li ><a href="Pricing.html">Pricing</a></li>
-                        <li ><a href="Testimonials.html">testimonials</a></li>
-                        <li ><a href="OurStory.html">our story</a></li>
-                    </ul>
-                </nav>
-                <ul class="login">
-                    <li><a href="../Account/SignIn.html">Login</a></li>
-                    <li><a href="../signup.html">register</a></li>
-                </ul>
-            </div>
-        </header>
-        
-        
-
 <section id="banner" class="busiBanner">
     <div class="wrapper">
         <div class="signUp">
             <p>
                 REACH YOUR LOCAL CUSTOMERS, <strong>FASTER.</strong></p>
             <a href="../signup.html" class="btn">
-                <img src="../Content/images/FrontPages/SignUp2.png" alt="" />
+                <img src="<?php echo base_url();?>assets/images/FrontPages/SignUp2.png" alt="" />
             </a>
         </div>
     </div>
@@ -38,7 +14,7 @@
         <div class="aboutTextBox">
             <figure class="pointer">
                 <em></em>
-                <img src="../Content/images/FrontPages/pointer-img.png" alt="" /></figure>
+                <img src="<?php echo base_url();?>assets/images/FrontPages/pointer-img.png" alt="" /></figure>
             <div class="aboutText">
                 <p>
                     <strong>Shopunion is a local, mobile platform</strong> that allows businesses like
@@ -56,51 +32,51 @@
         <ul class="usepushList">
             <li class="w1"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon17.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon17.png" alt="" /></figure>
                 <span>BARS</span></a> </li>
             <li class="w2"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon18.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon18.png" alt="" /></figure>
                 <span>RESTAURANTS</span></a> </li>
             <li class="w3"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon19.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon19.png" alt="" /></figure>
                 <span>RETAIL</span></a> </li>
             <li class="w4"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon20.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon20.png" alt="" /></figure>
                 <span>COFFEE SHOPS</span></a> </li>
             <li class="w5"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon21.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon21.png" alt="" /></figure>
                 <span>PUBLICATIONS</span></a> </li>
             <li class="w6"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon22.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon22.png" alt="" /></figure>
                 <span>SALONS</span></a> </li>
             <li class="w1"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon23.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon23.png" alt="" /></figure>
                 <span>BANKS</span></a> </li>
             <li class="w2"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon24.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon24.png" alt="" /></figure>
                 <span>REAL ESTATE</span></a> </li>
             <li class="w3"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon25.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon25.png" alt="" /></figure>
                 <span>HOTELS</span></a> </li>
             <li class="w4"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon26.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon26.png" alt="" /></figure>
                 <span>HOME SERVICES</span></a> </li>
             <li class="w5"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon27.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon27.png" alt="" /></figure>
                 <span>FOOD TRUCKS</span></a> </li>
             <li class="w6"><a href="#">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon28.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon28.png" alt="" /></figure>
                 <span>&amp; MORE</span></a> </li>
         </ul>
     </div>
@@ -112,7 +88,7 @@
                 Product Tour</h2>
             <section class="row first">
                 <figure class="image">
-                    <img src="../Content/images/FrontPages/img02.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/img02.jpg" alt="" />
                 </figure>
                 <div class="contentText">
                     <span>Community Focused</span>
@@ -127,7 +103,7 @@
             </section>
             <section class="row swapContent">
                 <figure class="image">
-                    <img src="../Content/images/FrontPages/img03.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/img03.jpg" alt="" />
                 </figure>
                 <div class="contentText">
                     <span>Get Discovered</span>
@@ -141,7 +117,7 @@
             </section>
             <section class="row">
                 <figure class="image">
-                    <img src="../Content/images/FrontPages/img04.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/img04.jpg" alt="" />
                 </figure>
                 <div class="contentText">
                     <span>Push Notifications</span>
@@ -155,7 +131,7 @@
             </section>
             <section class="row swapContent">
                 <figure class="image">
-                    <img src="../Content/images/FrontPages/img05.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/img05.jpg" alt="" />
                 </figure>
                 <div class="contentText">
                     <span>Social Media Integration</span>
@@ -170,7 +146,7 @@
             </section>
             <section class="row">
                 <figure class="image">
-                    <img src="../Content/images/FrontPages/img06.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/img06.jpg" alt="" />
                 </figure>
                 <div class="contentText">
                     <span>Scheduling</span>
@@ -185,7 +161,7 @@
             </section>
             <section class="row swapContent">
                 <figure class="image">
-                    <img src="../Content/images/FrontPages/img07.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/img07.jpg" alt="" />
                 </figure>
                 <div class="contentText">
                     <span>Analytics</span>
@@ -200,7 +176,7 @@
             </section>
             <section class="row">
                 <figure class="image">
-                    <img src="../Content/images/FrontPages/img08.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/img08.jpg" alt="" />
                 </figure>
                 <div class="contentText">
                     <span>Contact and Directions</span>
@@ -215,7 +191,7 @@
             </section>
             <section class="row swapContent">
                 <figure class="image">
-                    <img src="../Content/images/FrontPages/img09.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/img09.jpg" alt="" />
                 </figure>
                 <div class="contentText">
                     <span>E-Commerce (coming soon)</span>
@@ -239,7 +215,7 @@
         <div class="doubleDave">
             <div class="wrapper">
                 <figure>
-                    <img src="../Content/images/FrontPages/double-logo.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/double-logo.png" alt="" /></figure>
                 <div class="doubleDaveText">
                     <p>
                         DoubleDave’s serves pizza in Austin, Texas. They signed up three locations on
@@ -307,87 +283,8 @@
         </div>
     </section>
 </div>
-
-
-        <footer id="footer">
-            <div id="footerTop">
-                <div class="wrapper">
-                    <div class="tweetSlide">
-                        <figure><img src="../Content/images/FrontPages/tweeter-icon.png" alt=""/></figure>
-                        <div class="tweet">
-                            <p>
-                                <span class="last-tweet-text">
-                                    
-                                </span>
-                                <em class="last-tweet-author">by Shopunion</em>
-                            </p>
-                            <p><small class="last-tweet-createdat">about 5 minutes ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="footerMiddle">
-                <div class="wrapper">
-                    <section class="footeLogoSec">
-                        <a href="#" class="footerLogo">
-                            <img src="../Content/images/FrontPages/logo-footer.png" alt=""/>
-                        </a>
-                        <ul class="social">
-                            <li class="facebook"><a href="http://www.facebook.com/Shopunion">facebook</a></li>
-                            <li class="tweeter"><a href="http://www.twitter.com/shopunion">tweeter</a></li>
-                            <li class="vimeo"><a href="http://vimeo.com/68562676">vimeo</a></li>
-                        </ul>
-                    </section>
-                    <section class="box blog">
-                        <h6>
-                            <a href="http://blog.pushlocal.com/">
-                                CHECK OUT THE BLOG
-                            </a>
-                        </h6>
-                        <p>
-                            We blog about technology, local culture, startups, new features and anything else that comes to mind.
-                        </p>
-                    </section>
-                    <section class="box contact">
-                        <h6>contacts</h6>
-                        <ul>
-                            <li>
-                                <figure><img src="../Content/images/FrontPages/msg-icon.png" alt=""/></figure>
-                                <p><a href="mailto:info@shopunion.com">info@shopunion.com</a></p>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="box newsletter">
-                        <h6>newsletter signup</h6>
-                        <p>By subscribing to our mailing list you<br/>will get the latest news from us.</p>
-                        <div class="newsletterBox">
-                            <div id="mc_embed_signup">
-                                <form action="#" 
-                                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                    <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                    <input type="submit" value="join us" name="subscribe" id="mc-embedded-subscribe">
-                                
-                                    <div id="mce-responses" class="clear">
-                                        <div class="response" id="mce-error-response" style="display:none"></div>
-                                        <div class="response" id="mce-success-response" style="display:none"></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        
-                    </section>
-                </div>
-            </div>
-            <div id="footerBottom">
-                <div class="wrapper">
-                    <p>&COPY; 2013 shopunion. All Rights Reserved</p> 
-                </div>
-            </div>
-        </footer>
-        
-        <script src="../Scripts/FrontPages/main.js"></script>
-        
-    </body>
+<?php include('footer.php'); ?>
+</body>
 
 </html>
 

@@ -1,27 +1,3 @@
-<body>
-        <header id="header">
-            <div class="wrapper">
-                <span id="mobileMenu">MobileMenu</span>
-                <a href="../index.html" class="logo"><img src="../Content/images/FrontPages/logo.png" alt=""/></a>
-                <nav>
-                    <ul class="menu">
-                        <li ><a href="Business.html">Business</a></li>
-                        <li ><a href="Community.html">community</a></li>
-                        <li ><a href="App.html">the app</a></li>
-                        <li ><a href="Pricing.html">Pricing</a></li>
-                        <li ><a href="Testimonials.html">testimonials</a></li>
-                        <li class=active><a href="OurStory.html">our story</a></li>
-                    </ul>
-                </nav>
-                <ul class="login">
-                    <li><a href="../Account/SignIn.html">Login</a></li>
-                    <li><a href="../signup.html">register</a></li>
-                </ul>
-            </div>
-        </header>
-        
-        
-
 <section id="banner" class="storyBanner">
     <div class="wrapper">
         <div class="storyBannerTitle">
@@ -29,7 +5,7 @@
         <div class="storyContent">
             <div class="commentBox">
                 <figure>
-                    <img src="../Content/images/FrontPages/user-pic.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/user-pic.jpg" alt="" />
                     <figcaption>
                         <span>Brent Bourland</span> <small>co-founder</small>
                     </figcaption>
@@ -56,7 +32,7 @@
                         <strong>-Zach Jex, </strong>Co-Founder</p>
                 </div>
                 <figure>
-                    <img src="../Content/images/FrontPages/user-pic02.jpg" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/user-pic02.jpg" alt="" />
                     <figcaption>
                         <span>Zach Jex</span> <small>co-founder</small>
                     </figcaption>
@@ -82,7 +58,7 @@
         <article>
             <div class="articleTop">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon41.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon41.png" alt="" /></figure>
                 <h3>
                     Simple</h3>
             </div>
@@ -97,7 +73,7 @@
         <article>
             <div class="articleTop">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon42.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon42.png" alt="" /></figure>
                 <h3>
                     Affordable</h3>
             </div>
@@ -112,7 +88,7 @@
         <article>
             <div class="articleTop">
                 <figure>
-                    <img src="../Content/images/FrontPages/icon43.png" alt="" /></figure>
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/icon43.png" alt="" /></figure>
                 <h3>
                     Measureable</h3>
             </div>
@@ -128,7 +104,7 @@
 <section class="appBlock">
     <div class="wrapper">
         <figure class="appPic">
-            <img src="../Content/images/FrontPages/app.png" alt="app picture" /></figure>
+            <img src="<?php echo base_url();?>assets/images/FrontPages/app.png" alt="app picture" /></figure>
         <article class="appText">
             <h6>
                 Shopunion is the first platform that gives every single organization in a city it’s
@@ -192,7 +168,7 @@
             </ul>
         </article>
         <figure class="mobilePic">
-            <img src="../Content/images/FrontPages/img15.jpg" alt="" />
+            <img src="<?php echo base_url();?>assets/images/FrontPages/img15.jpg" alt="" />
         </figure>
     </div>
 </section>
@@ -211,95 +187,16 @@
         <div class="appBtnBox">
             <div class="wrapper">
                 <a href="../signup/premium.html">
-                    <img src="../Content/images/FrontPages/btn-bg03.png" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/btn-bg03.png" alt="" />
                 </a>
                 <a href="../signup/community.html">
-                    <img src="../Content/images/FrontPages/btn-bg04.png" alt="" />
+                    <img src="<?php echo base_url();?>assets/images/FrontPages/btn-bg04.png" alt="" />
                 </a>
             </div>
         </div>
     </div>
 </section>
-
-
-        <footer id="footer">
-            <div id="footerTop">
-                <div class="wrapper">
-                    <div class="tweetSlide">
-                        <figure><img src="../Content/images/FrontPages/tweeter-icon.png" alt=""/></figure>
-                        <div class="tweet">
-                            <p>
-                                <span class="last-tweet-text">
-                                    
-                                </span>
-                                <em class="last-tweet-author">by Shopunion</em>
-                            </p>
-                            <p><small class="last-tweet-createdat">about 5 minutes ago</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="footerMiddle">
-                <div class="wrapper">
-                    <section class="footeLogoSec">
-                        <a href="#" class="footerLogo">
-                            <img src="../Content/images/FrontPages/logo-footer.png" alt=""/>
-                        </a>
-                        <ul class="social">
-                            <li class="facebook"><a href="http://www.facebook.com/Shopunion">facebook</a></li>
-                            <li class="tweeter"><a href="http://www.twitter.com/shopunion">tweeter</a></li>
-                            <li class="vimeo"><a href="http://vimeo.com/68562676">vimeo</a></li>
-                        </ul>
-                    </section>
-                    <section class="box blog">
-                        <h6>
-                            <a href="http://blog.pushlocal.com/">
-                                CHECK OUT THE BLOG
-                            </a>
-                        </h6>
-                        <p>
-                            We blog about technology, local culture, startups, new features and anything else that comes to mind.
-                        </p>
-                    </section>
-                    <section class="box contact">
-                        <h6>contacts</h6>
-                        <ul>
-                            <li>
-                                <figure><img src="../Content/images/FrontPages/msg-icon.png" alt=""/></figure>
-                                <p><a href="mailto:info@shopunion.com">info@shopunion.com</a></p>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="box newsletter">
-                        <h6>newsletter signup</h6>
-                        <p>By subscribing to our mailing list you<br/>will get the latest news from us.</p>
-                        <div class="newsletterBox">
-                            <div id="mc_embed_signup">
-                                <form action="#" 
-                                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                    <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                    <input type="submit" value="join us" name="subscribe" id="mc-embedded-subscribe">
-                                
-                                    <div id="mce-responses" class="clear">
-                                        <div class="response" id="mce-error-response" style="display:none"></div>
-                                        <div class="response" id="mce-success-response" style="display:none"></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        
-                    </section>
-                </div>
-            </div>
-            <div id="footerBottom">
-                <div class="wrapper">
-                    <p>&COPY; 2013 shopunion. All Rights Reserved</p> 
-                </div>
-            </div>
-        </footer>
-        
-        <script src="../Scripts/FrontPages/main.js"></script>
-        
+<?php include('footer.php'); ?>
     </body>
 
 </html>

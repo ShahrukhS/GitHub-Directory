@@ -21,7 +21,7 @@
 </div>
 <div class="formOuter">
     <div class="wrapper">
-<form action="http://shopunion.com/Home/CreateBusiness" id="businessForm" method="post"><input id="SignUpType" name="SignUpType" type="hidden" value="general" /><input id="CountryName" name="CountryName" type="hidden" value="US" />            <section class="form stepOne" style="display: block;">
+<form action="signup/submit" id="businessForm" method="post"><input id="SignUpType" name="SignUpType" type="hidden" value="general" /><input id="CountryName" name="CountryName" type="hidden" value="US" />            <section class="form stepOne" style="display: block;">
                 <h1>
                     Enter Your Personal Information</h1>
                 <div class="formWrap">

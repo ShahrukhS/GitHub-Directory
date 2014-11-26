@@ -21,5 +21,12 @@ class Advertiser extends MY_Model{
 	public $pic;
 	public $updates;
 	public $followers;
+	
+	public function can_login(){
+		$this->db->where('email', $this->email);
+		$this->db->where('password', $this->password);
+		
+		return ($this->db->get($this::DB_TABLE)->num_rows() == 1);
+	}
 }
 ?>
